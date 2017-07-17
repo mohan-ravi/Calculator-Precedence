@@ -1,0 +1,21 @@
+{
+  "name": "npm-package-concept",
+  "version": "2.2.0",
+  "description": "Learning npm packages and modules",
+  "main": "index.js",
+  "scripts": {
+    "compile":"dir /b *.ts > tsfiles.txt",
+    "tsc":"tsc @tsfiles.txt",
+    "prepublish": "npm run compile && npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohan-ravi/new-demo.git"
+  },
+  "author": "mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohan-ravi/new-demo/issues"
+  },
+  "homepage": "https://github.com/mohan-ravi/new-demo#readme"
+}
