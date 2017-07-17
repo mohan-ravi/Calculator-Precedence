@@ -1,4 +1,4 @@
-*.ts
+CalcPrecedence.ts
 *.txt
 *.log
 *.bat
