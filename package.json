@@ -1,21 +1,23 @@
 {
-  "name": "npm-package-concept",
-  "version": "2.2.0",
-  "description": "Learning npm packages and modules",
+  "name": "calculator-precedence",
+  "version": "1.0.0",
+  "description": "JavaScript to Perform Calculator operations with precedence",
   "main": "index.js",
   "scripts": {
-    "compile":"dir /b *.ts > tsfiles.txt",
-    "tsc":"tsc @tsfiles.txt",
-    "prepublish": "npm run compile && npm run tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohan-ravi/new-demo.git"
+    "url": "git+https://github.com/mohan-ravi/Calculator-Precedence.git"
   },
-  "author": "mohan",
+  "keywords": [
+    "calculator",
+    "precedence"
+  ],
+  "author": "Mohan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mohan-ravi/new-demo/issues"
+    "url": "https://github.com/mohan-ravi/Calculator-Precedence/issues"
   },
-  "homepage": "https://github.com/mohan-ravi/new-demo#readme"
+  "homepage": "https://github.com/mohan-ravi/Calculator-Precedence#readme"
 }
