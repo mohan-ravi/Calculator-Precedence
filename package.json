@@ -1,6 +1,6 @@
 {
   "name": "calculator-precedence",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JavaScript to Perform Calculator operations with precedence",
   "main": "index.js",
   "scripts": {
